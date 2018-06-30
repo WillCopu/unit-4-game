@@ -1,0 +1,424 @@
+
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("../images/background.jpg");
+	background-color: #ccc;
+	font-family: 'Georgia', 'Times', Times New Roman, serif;	
+	font-size: 18px;
+	line-height: 125%;
+	}
+
+form{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+footer{
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 35px; 
+	background-color: #666666;
+	border-top-color:  #4aaaa5;
+	border-top-width: 4px;
+	border-top-style: solid;
+	border-bottom-color:  #cccccc;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	z-index: 99;
+	text-align: center;
+	font-size: 12px;
+	color: #cccccc; 
+}
+
+h1{
+	font-size: 28px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+input[type=text] {
+    color: #777777;
+    width: 100%;
+    padding: 6px 6px;
+    margin: 8px 0;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px 25px;
+    cursor: pointer;
+}
+
+p{
+	margin-bottom: 15px;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+}
+
+
+#container {
+	padding-top: 10px;
+	padding-bottom: 75px;
+	width: 100%;
+	max-width: 1028px;
+	margin: 0 auto 0 auto;
+	overflow: auto;
+}
+
+#titleDiv{
+	width: 300px;
+	background-color: #d2691e;
+	padding-top: 25px;
+	padding-left: 10px;
+	padding-bottom: 25px;
+	font-size: 28px;
+	font-weight: bold;
+	color: #ffffff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+#instructionsDiv{
+	width: 100%;
+	max-width: 900px;
+	background-color: #ffffff;
+	margin-top: 20px;
+	padding-top: 25px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	color: #008000;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+#randomNumber{
+	width: 250px;
+	height: 125px;
+	background-color: #3cb371;
+	font-size: 36px;
+	margin-top: 15px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	color: #000000;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	float: left;
+}
+
+#gameCounters{
+	width: 125px;
+	height: 125px;
+	background-color: #48d1cc;
+	font-size: 18px;
+	margin-left: 10px;
+	margin-top: 15px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	color: #000000;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	float: left;
+}
+
+#crystalButtons{
+	clear: both;
+}
+
+#crystalTotalLabel{
+	clear: both;
+	width: 250px;
+	height: 35px;
+	background-color: #20b2aa;
+	font-size: 18px;
+	margin-top: 15px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	color: #000000;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	float: left;
+}
+
+#crystalTotal{
+	clear:both;
+	width: 250px;
+	height: 60px;
+	background-color: #20b2aa;
+	font-size: 30px;
+	margin-top: 15px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	color: #000000;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	float: left;
+}
+
+#blueGem{
+	background-image: url("assets/images/gem-blue-75.jpg");
+	float: left;
+
+}
+
+
+.crystal-images{
+	width: 50px:
+	height: 50px;
+	margin-top: 10px;
+	margin-right: 20px;
+	border: 1px black solid;
+	float: left;
+}
+
+.headerfonts{
+	font-family: 'Georgia', 'Times', Times New Roman, serif;	
+}
+
+.topsection{
+	width: 960px;
+	margin: 0 auto 0 auto;
+
+}	
+
+.masthead{
+	width: 100%;
+	height: 75px;
+	background-color: #ffffff;
+	border-top-color:  #cccccc;
+	border-top-width: 4px;
+	border-top-style: solid;
+	border-bottom-color:  #cccccc;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+}
+
+.dummybottom{
+	margin: 0 auto 0 auto;
+	height: 575px; 
+	width: 100%; 
+}
+
+.my_name{
+	top:0;
+	padding:20px;
+	height: 67px; 
+	width: 210px; 
+	background-color: #4aaaa5;
+	color: #ffffff;
+	float: left;
+}
+
+.middleblank{
+	position: relative;
+	padding:20px;
+	height: 35px;
+	width: 455px;
+	background-color: #ffffff;
+	color: #777777;
+	float: left;
+}
+
+.about_me{
+	width: 650px;
+	background-color: #ffffff;
+	color: #4aaaa5;
+	float: left;
+}
+
+.toplinks{
+	position: relative;
+	height: 35px;
+	width: 270px;
+	background-color: #ffffff;
+	float: left;
+}
+
+.aboutlink{
+	position: relative;
+	margin-top: 35px;
+	height: 35px;
+	width: 33%;
+	text-align: center;
+	font-weight: bold;
+	color: #777777;
+	float: left;
+}
+
+.portfoliolink{
+	position: relative;
+	margin-top: 35px;
+	height: 35px;
+	width: 34%;
+	color: #777777;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+}
+
+.contactlink{
+	position: relative;
+	margin-top: 35px;
+	height: 35px;
+	text-align: center;
+	width: 33%;
+	color: #777777;
+	font-weight: bold;
+	float: left;
+}
+
+
+
+.midsection{
+	width: 960px;
+	margin: 0 auto 0 auto;	
+	background-color: #ffffff;
+	clear: both;
+}
+
+.about_me_top{
+	height: 50px;
+	background-color: #ffffff;
+	color: #4aaaa5;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #ffffff;
+	border-bottom-color:  #cccccc;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
+
+.about_me_image{
+	width: 200px:
+	height: 200px;
+	margin-top: 10px;
+	margin-right: 20px;
+	border: 3px black solid;
+	float: left;
+}
+
+.about_me_textbox{
+	background-color: #ffffff;
+	color: #777777;
+	padding: 20px;
+}
+
+.work {
+	position: relative;
+	float: left;
+	width: 295px;
+	margin-left: 20px;
+	overflow: auto;
+}
+
+.work:nth-child(even) {
+  margin-right: 0px;
+}
+
+.work img {
+	width: 100%;
+	height: 200px;  	
+  	border: 0 none;
+  	opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.portfolio-image{
+	width: 300px;
+	height: 200px;
+	opacity: .75;
+}
+
+.project_box{
+	border-bottom: 0;
+	height: 35px;
+	bottom:20px;
+	padding: 15px;
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 0;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-weight: 300;
+
+}
+
+.connect_with_me{
+	width: 230px;
+	margin-left: 40px; 
+	background-color: #ffffff;
+	color: #4aaaa5;
+	float: left;
+	text-align: center;
+}
+
+.sidebar{
+	width: 270px;
+	float: left;
+}
+
+.bottomsection{
+	clear: float;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	font-size: 12px;
+	color: #cccccc; 
+}
+
+
+
